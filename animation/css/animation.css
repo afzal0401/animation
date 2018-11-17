@@ -1,0 +1,26 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.image2{
+    position: absolute;
+    top: 280px;
+    left: 720px;
+    animation-name: car;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes car{
+    from{
+        top: 280px;
+        left: 670px;
+    }
+    to{
+        top: 430px;
+        left: 280px;
+    }
+}
+.image2:hover{
+    transform: scale(1.5,1.5);
+    
+}
